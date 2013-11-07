@@ -17,6 +17,7 @@ public class ContainerForPOJOWithMap {
 		pojoWithMap.setNames(names);
 		System.out.println(pojoWithMap);
 		
+		//Using Spring IoC container
 		ApplicationContext context = new ClassPathXmlApplicationContext("contextMap.xml");
 		pojoWithMap = (POJOWithMap)context.getBean("POJOWithMap");
 		System.out.println(pojoWithMap);

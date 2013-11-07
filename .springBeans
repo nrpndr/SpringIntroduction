@@ -11,6 +11,7 @@
 		<config>src/contextList.xml</config>
 		<config>src/contextSet.xml</config>
 		<config>src/contextMap.xml</config>
+		<config>src/contextProperties.xml</config>
 	</configs>
 	<configSets>
 	</configSets>
