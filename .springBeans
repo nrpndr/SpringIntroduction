@@ -10,6 +10,7 @@
 		<config>src/context.xml</config>
 		<config>src/contextList.xml</config>
 		<config>src/contextSet.xml</config>
+		<config>src/contextMap.xml</config>
 	</configs>
 	<configSets>
 	</configSets>

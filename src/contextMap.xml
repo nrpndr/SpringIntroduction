@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context 
+						http://www.springframework.org/schema/context/spring-context.xsd">
+						
+	<bean id="POJOWithMap" class="com.my.project.spring.intro.POJOWithMap">
+		<property name="names">
+			<map>
+				<entry key="name1" value="nripendra"></entry>
+				<entry key="name2" value="thakur"></entry>
+				<entry key-ref="nameref" value="agnibha"></entry>
+				<entry key="name4">
+					<bean class="java.lang.String">
+						<constructor-arg value="nishendra"></constructor-arg>
+					</bean>	
+				</entry>
+				<entry key="name5" value-ref="name5"></entry>
+			</map>
+		</property>
+	</bean>
+	
+	<bean id="nameref" class="java.lang.String">
+		<constructor-arg value="name3"></constructor-arg>
+	</bean>
+	
+	<bean id="name5" class="java.lang.String">
+		<constructor-arg value="nitesh"></constructor-arg>
+	</bean>
+
+</beans>

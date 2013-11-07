@@ -14,8 +14,17 @@
 			<set>
 				<value>nripendra</value>
 				<value>thakur</value>
+				<!-- Inner bean -->
+				<bean class="java.lang.String">
+					<constructor-arg value="hemant"></constructor-arg>
+				</bean>
+				<ref bean="anotherString"/>
 			</set>
 		</property>
+	</bean>
+	
+	<bean id="anotherString" class="java.lang.String">
+		<constructor-arg value="nishendra"></constructor-arg>
 	</bean>
 	
 
