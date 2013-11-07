@@ -12,6 +12,7 @@
 		<config>src/contextSet.xml</config>
 		<config>src/contextMap.xml</config>
 		<config>src/contextProperties.xml</config>
+		<config>src/contextIDREF.xml</config>
 	</configs>
 	<configSets>
 	</configSets>
