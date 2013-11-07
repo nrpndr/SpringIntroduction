@@ -6,6 +6,11 @@ import java.util.Map;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * Spring will also preserve the order of the map entries by using java.util.LinkedHashMap.
+ * @author ivy4293
+ *
+ */
 public class ContainerForPOJOWithMap {
 	
 	public static void main(String[] args) {

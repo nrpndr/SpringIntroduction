@@ -21,6 +21,10 @@
 					</bean>	
 				</entry>
 				<entry key="name5" value-ref="name5"></entry>
+				<entry>
+					<key><value>name5</value> </key>
+					<value>manohar</value>
+				</entry>
 			</map>
 		</property>
 	</bean>
