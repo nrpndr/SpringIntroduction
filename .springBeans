@@ -13,6 +13,7 @@
 		<config>src/contextMap.xml</config>
 		<config>src/contextProperties.xml</config>
 		<config>src/contextIDREF.xml</config>
+		<config>src/contextInheritance.xml</config>
 	</configs>
 	<configSets>
 	</configSets>
