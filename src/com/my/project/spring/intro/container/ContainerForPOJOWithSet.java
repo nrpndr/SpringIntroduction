@@ -1,10 +1,13 @@
-package com.my.project.spring.intro;
+package com.my.project.spring.intro.container;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.my.project.spring.intro.pojos.POJOWithSet;
+
 
 /**
  * Although there’s no order concept in the original set semantics, Spring preserves the order of your

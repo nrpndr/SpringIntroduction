@@ -1,7 +1,9 @@
-package com.my.project.spring.intro;
+package com.my.project.spring.intro.container;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.my.project.spring.intro.SequenceGenerator;
 
 /**
  * Init the spring container

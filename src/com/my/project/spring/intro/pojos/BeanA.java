@@ -1,4 +1,4 @@
-package com.my.project.spring.intro;
+package com.my.project.spring.intro.pojos;
 
 public class BeanA {
 	

@@ -1,10 +1,13 @@
-package com.my.project.spring.intro;
+package com.my.project.spring.intro.container;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.my.project.spring.intro.pojos.POJOWithList;
+
 
 public class ContainerForPOJOWithList {
 	

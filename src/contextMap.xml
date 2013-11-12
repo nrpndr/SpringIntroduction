@@ -9,7 +9,7 @@
 						http://www.springframework.org/schema/context 
 						http://www.springframework.org/schema/context/spring-context.xsd">
 						
-	<bean id="POJOWithMap" class="com.my.project.spring.intro.POJOWithMap">
+	<bean id="POJOWithMap" class="com.my.project.spring.intro.pojos.POJOWithMap">
 		<property name="names">
 			<map>
 				<entry key="name1" value="nripendra"></entry>
@@ -24,6 +24,11 @@
 				<entry>
 					<key><value>name5</value> </key>
 					<value>manohar</value>
+				</entry>
+				<!-- null entry -->
+				<entry>
+				<key><value>null</value></key>
+				<value>null</value>
 				</entry>
 			</map>
 		</property>

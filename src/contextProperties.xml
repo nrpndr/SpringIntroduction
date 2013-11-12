@@ -9,7 +9,7 @@
 						http://www.springframework.org/schema/context 
 						http://www.springframework.org/schema/context/spring-context.xsd">
 	
-	<bean id="POJOWithProperty" class="com.my.project.spring.intro.POJOWithProperty">
+	<bean id="POJOWithProperty" class="com.my.project.spring.intro.pojos.POJOWithProperty">
 		<property name="properties">
 			<props>
 				<prop key="name1">nripendra</prop>

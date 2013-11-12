@@ -9,7 +9,7 @@
 						http://www.springframework.org/schema/context 
 						http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean id="pojoWithList" class="com.my.project.spring.intro.POJOWithList">
+	<bean id="pojoWithList" class="com.my.project.spring.intro.pojos.POJOWithList">
 		<property name="names">
 			<list>
 				<value>nripendra</value>

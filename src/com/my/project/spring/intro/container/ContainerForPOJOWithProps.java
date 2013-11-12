@@ -1,9 +1,12 @@
-package com.my.project.spring.intro;
+package com.my.project.spring.intro.container;
 
 import java.util.Properties;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.my.project.spring.intro.pojos.POJOWithProperty;
+
 
 public class ContainerForPOJOWithProps {
 	

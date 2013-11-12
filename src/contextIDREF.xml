@@ -9,11 +9,11 @@
 						http://www.springframework.org/schema/context 
 						http://www.springframework.org/schema/context/spring-context.xsd">
 						
-	<bean id="beanA" class="com.my.project.spring.intro.BeanA">
+	<bean id="beanA" class="com.my.project.spring.intro.pojos.BeanA">
 		<property name="message" value="nripendra"></property>
 	</bean>
 	
-	<bean id="beanB" class="com.my.project.spring.intro.BeanB">
+	<bean id="beanB" class="com.my.project.spring.intro.pojos.BeanB">
 		<property name="message">
 			<idref bean="beanA"/>
 		</property>
