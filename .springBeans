@@ -14,6 +14,7 @@
 		<config>src/contextProperties.xml</config>
 		<config>src/contextIDREF.xml</config>
 		<config>src/contextInheritance.xml</config>
+		<config>src/contextCollectionMerge.xml</config>
 	</configs>
 	<configSets>
 	</configSets>
